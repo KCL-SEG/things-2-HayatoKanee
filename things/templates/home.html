@@ -6,9 +6,9 @@
   <h1>
     Things
   </h1>
-  <form action="{% url 'home' %" method="get">
+  <form action="{% url '' %" method="get">
     {% csrf_token %}
-    {{form}}
+    {{form.as_p}}
   </form>
 </body>
 </html>
